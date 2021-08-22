@@ -1,0 +1,226 @@
+    .output {
+    width: 80%;
+    height: 80%;
+    max-height: 70rem;
+    position: absolute;
+    padding: 10px 15px ;
+    margin: 8px 0;
+    border-radius: 15px;
+    box-sizing: border-box;
+    background-color: darkgoldenrod;
+    box-shadow: darkmagenta;
+    float: center;
+    
+    top: -50px;
+    bottom: -100px;
+    left: 150px;
+    right: 80;
+    margin: auto;
+    flex: 1;
+    text-align: center;
+    overflow: auto;
+    font-size: large;
+    opacity: 60%;
+    text-decoration-style: wavy;
+    text-shadow: 3px 3px rgb(255, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+ }
+
+
+    .cmd {
+        text-shadow: seagreen;
+        font-size: large;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        height: 35px;
+        width: 600px;
+        text-align: center;
+        color: mediumslateblue;
+        margin: auto;
+        border: 3px solid maroon;
+        
+        border-radius: 10px;
+        top: 350px;
+        position: relative;
+        right: 5px;
+        
+    }
+
+    .port {
+        text-shadow: seagreen;
+        font-size: large;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        height: 35px;
+        width: 600px;
+        text-align: center;
+        color: mediumslateblue;
+        margin: auto;
+        border: 3px solid maroon;
+        
+        border-radius: 10px;
+        
+        position: relative;
+        right: 620px;
+        top: 435px;
+
+    }
+
+    .replica {
+        text-shadow: seagreen;
+        font-size: large;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        height: 35px;
+        width: 600px;
+        text-align: center;
+        color: mediumslateblue;
+        margin: auto;
+        border: 3px solid maroon;
+        
+        border-radius: 10px;
+        top: 350px;
+        position: relative;
+        right: 5px;
+    }
+
+    .name {
+        text-shadow: seagreen;
+        font-size: large;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        height: 35px;
+        width: 600px;
+        text-align: center;
+        color: mediumslateblue;
+        margin: auto;
+        border: 3px solid maroon;
+        
+        border-radius: 10px;
+        top: 435px;
+        position: relative;
+        right: 620px;
+    }
+    
+
+    .heading {
+             
+        box-sizing: content-box;        
+        font-size: 28px;
+        color: royalblue;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-shadow: red;
+        font-weight: bolder;
+        position: relative;
+        left: 50px;
+        top: -50px;
+        animation-name: head;
+        animation-duration: 3s;
+        animation-direction: alternate;
+        animation-iteration-count: infinite;
+        width: 700px;  
+
+
+    }
+
+    @keyframes head {
+
+        0% { background-color: lightgreen;  left: 0px;}
+        25% {background-color: transparent; left: 110px; }
+        50% { background-color: thistle; left: 240px; }
+        75% { background-color: rgb(140, 231, 231); left: 200px;  }
+        100% { background-color: rgb(248, 212, 120); left: 200px; }
+    }
+
+    .heading span {
+     cursor: pointer;
+     display: inline-block;
+     position: relative;
+     transition: 1.0s;
+    } 
+
+    .heading span:after {
+     content: '\00bb';
+     position: absolute;
+     opacity: 0;
+     top: 0;
+     right: -20px;
+     transition: 1.0s;
+    }
+
+
+
+    .heading:hover span {
+       padding-right: 25px;
+    }
+
+    .heading:hover span:after {
+      opacity: 1;
+      right: 0;
+    }
+
+    
+    body {
+        background-image: url("k8\'s.jpg");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        
+        
+    }
+
+
+
+
+  .button {
+  border-radius: 6px;
+  background-color: blue;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 24px;
+  padding: 10px;
+  width: 120px;
+  transition: all 0.5s;
+  cursor: pointer;
+  position: relative;
+  top: 400px;
+  right: 250px;
+
+ }
+
+  .button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 1s;
+ }
+ 
+  .button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: 0px;
+  transition: 0.5s;
+ }
+
+  .button:hover span {
+  padding-right: 25px;
+  } 
+
+  .button:hover span:after {
+  opacity: 1;
+  right: -20px;
+ }
+
+
+ .help {
+    
+    position: relative;
+    left: 1200px;
+    top: -50px;
+    padding: 8px;
+    width: 65px;
+    border-radius: 5px;
+    background-color: rgb(127, 153, 231);
+    border: slateblue;
+ }
+
+
